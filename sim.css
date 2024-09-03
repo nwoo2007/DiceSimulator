@@ -1,0 +1,67 @@
+html {
+  background-color: purple;
+}
+
+body {
+  background-color: #6260d2;
+  width: 500px;
+  padding: 25px 50px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+#roll-btn {
+  margin-right: 15px;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid purple;
+}
+
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: purple;
+  transition: background 1s;
+}
+
+#dice-display {
+  background: black;
+}
+
+#dice-display,
+#roll-history {
+  width: 400px;
+  padding: 25px;
+  margin: auto;
+  text-align: center;
+  border: 2px solid purple;
+}
+
+img {
+  width: 150px;
+  transform: rotate(0);
+  /* transform declaration allows javascript to rotate the images */
+  margin: 10px;
+}
+
+span {
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  display: inline-block;
+  /* span elements won't go offscreen */
+}

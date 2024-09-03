@@ -1,0 +1,39 @@
+html {
+    background: black;
+}
+
+.container {
+    position: relative; 
+    text-align: center; 
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+#myVideo {
+    height: 550px;
+}
+
+button { 
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: white; 
+}
+
+button:hover {
+    cursor: pointer;
+    background: #6260d2;
+    transition: background 1s;
+}
+
