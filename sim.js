@@ -238,19 +238,3 @@ function resetDice() {
   timer = setInterval(animateDice, 200);
   historyBox.innerHTML = `<h3>Dice Roll</h3>`;
 }
-
-// // One Dice
-// if (+numDiceEl.value == 1) {
-
-//   // Two Dice
-// } else if (+numDiceEl.value == 2) {
-
-//   // Three Dice
-// } else if (+numDiceEl.value == 3) {
-
-//   // Four Dice
-// } else if (+numDiceEl.value == 4) {
-
-// } else {
-//   alert("ERROR. Check inputs.");
-// }
